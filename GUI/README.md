@@ -15,7 +15,7 @@ $ make examples
 $ sudo cp out/libui.s* /usr/lib
 $ sudo cp ../ui.h /usr/include
 ```
-
+也可以etc/profile文件中的LD_LIBRARY_PATH
 **编译**
 
 ```
@@ -29,3 +29,13 @@ $ gcc xxx.c -L /usr/lib -I /usr/include -l ui -o xxx
 **文档**
 
 直接参考`example`
+
+---
+
+
+**安装配置**
+
+```shell
+sudo apt-get install libmagickwand-dev
+dpkg -L libmagickwand-dev
+```
