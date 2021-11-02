@@ -1,0 +1,51 @@
+site_name: C语言学习笔记
+repo_url: https://github.com/Sharp-Enrich/LearnC
+edit_uri: edit/master/notes/
+site_description: C语言学习记录
+site_author: Tacey Wong
+copyright: ©2021 Tacey Wong Under MIT License
+docs_dir: notes
+nav:
+  - 主页: index.md
+  - 资源目录:
+    - 总参考列表: awesome.md
+  - 《C语言程序设计——现代方法》:
+    - 01概述: modernc/01概述.md
+    - 02基础概念: modernc/02基础概念.md
+markdown_extensions:
+  - footnotes
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      encoding: utf-8
+  - pymdownx.highlight:
+      use_pygments: true
+      auto_title: true
+      linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+theme:
+  name: material
+  language: zh
+  palette:
+    
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+extra:
+  generator: false
