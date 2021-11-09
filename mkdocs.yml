@@ -49,3 +49,8 @@ theme:
     - navigation.expand
 extra:
   generator: false
+# https://github.com/zhaoterryy/mkdocs-pdf-export-plugin
+# pip install mkdocs-pdf-export-plugin
+# plugins:
+#     - pdf-export:
+#         combined: true
