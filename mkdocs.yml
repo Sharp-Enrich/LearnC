@@ -12,9 +12,55 @@ nav:
   - 《C语言程序设计——现代方法》:
     - 01概述: modernc/01概述.md
     - 02基础概念: modernc/02基础概念.md
+  - 《现代C语言/ Modern C》:
+    - 概述: modern_c/index.md
+    - 级别0：相遇|邂逅/Encounter:  
+      - 概述: modern_c/0_index.md
+      - 第一章：开始起步: modern_c/0_1.md
+      - 第二章：程序的主要结构: modern_c/0_2.md
+    - 级别1：相知|泛泛之交/Acquaintance: 
+      - 概述: modern_c/1_index.md
+      - 第三章：一切都与控制有关: modern_c/1_1.md
+      - 第四章：表达计算: modern_c/1_2.md
+      - 第五章：基础数据类型: modern_c/1_3.md
+      - 第六章：派生数据类型: modern_c/1_4.md
+      - 第七章：函数: modern_c/1_5.md
+      - 第八章：C语言库函数: modern_c/1_6.md
+    - 级别2：相交|深入感知/Cognition:
+      - 概述: modern_c/2_index.md
+      - 第九章：代码风格: modern_c/2_1.md
+      - 第十章：组织和文档: modern_c/2_2.md
+      - 第十一章：指针: modern_c/2_3.md
+      - 第十二章：C语言内存模型: modern_c/2_4.md
+      - 第十三章：存储: modern_c/2_5.md
+      - 第十四章：IO: modern_c/2_6.md
+    - 级别3：相爱相杀|专业/Experience:
+      - 概述: modern_c/3_index.md
+      - 第十五章：性能: modern_c/3_1.md
+      - 第十六章：类函数宏: modern_c/3_2.md
+      - 第十七章：控制流变化: modern_c/3_3.md
+      - 第十八章：线程: modern_c/3_4.md
+      - 第十九章：原子访问和内存一致性: modern_c/3_5.md
+
+plugins:
+  - glightbox
+  - search
+
 markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
   - footnotes
+  - admonition
+  - pymdownx.details
   - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.snippets:
       encoding: utf-8
   - pymdownx.highlight:
@@ -27,6 +73,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
 theme:
   name: material
   language: zh
@@ -47,6 +94,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
+    - content.code.copy
+    - content.code.select
 extra:
   generator: false
 # https://github.com/zhaoterryy/mkdocs-pdf-export-plugin

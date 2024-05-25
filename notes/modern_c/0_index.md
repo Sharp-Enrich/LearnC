@@ -1,0 +1,4 @@
+!!! quote ""
+    我们这一关的吉祥物是喜鹊，地球上最聪明的非人类物种之一。他们有能力进行复杂的社会仪式和使用工具。Our mascot for this level is the magpie, one of the most intelligent nonhuman species on earth. They are capable of elaborate social rituals and usage of tools.
+
+本书的第一级可能是你第一次接触编程语言C。它为你提供了关于C程序的大致知识，它们的目的、结构以及如何使用它们。它并不是要给你一个完整的概述，它不能，甚至不会尝试。相反，它应该给你一个关于这一切的总体概念，打开问题，并促进想法和概念。这些将在更高的层次中详细解释。This first level of the book may be your first encounter with the programming language C. It provides you with a rough knowledge about C programs, their purpose, their structure,and how to use them. It is not meant to give you a complete overview, it can’t and it doesn’t even try. On the contrary, it is supposed to give you a general idea of what this is all about,open up questions, and promote ideas and concepts. These then will be explained in detail in the higher levels.

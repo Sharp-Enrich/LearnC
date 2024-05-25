@@ -25,10 +25,18 @@ int main(){
 
 ``` -->
 
-```mermaid
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
+
+
+
+``` mermaid
+sequenceDiagram
+  autonumber
+  小红->>小明: 你好小明，你好吗?
+  loop 健康检查
+      小明->>小明: 对抗疑难杂症
+  end
+  Note right of 小明: 理性思辨!
+  小明-->>小红: 挺好!
+  小明->>小强: 你呢?
+  小强-->>小明: 非常好!
 ```
